@@ -1,0 +1,91 @@
+2025-05-26 22:34:17,258 - ERROR - Error reading Excel file: [Errno 2] No such file or directory: 'data/video_data.xlsx'
+2025-05-26 22:34:17,258 - ERROR - Error processing video: [Errno 2] No such file or directory: 'data/video_data.xlsx'
+2025-05-26 22:34:25,352 - ERROR - Error reading Excel file: [Errno 2] No such file or directory: 'data/video_data.xlsx'
+2025-05-26 22:34:25,352 - ERROR - Error processing video: [Errno 2] No such file or directory: 'data/video_data.xlsx'
+2025-05-26 22:34:49,670 - ERROR - Error reading Excel file: Worksheet named 'Quotes' not found
+2025-05-26 22:34:49,670 - ERROR - Error processing video: Worksheet named 'Quotes' not found
+2025-05-26 22:36:32,772 - ERROR - Error reading Excel file: Worksheet named 'Quotes' not found
+2025-05-26 22:36:32,777 - ERROR - Error processing video: Worksheet named 'Quotes' not found
+2025-05-26 22:37:16,736 - INFO - Successfully read Excel data: 3 quotes, 3 music tracks
+2025-05-26 22:37:16,736 - INFO - Generating video for quote: Push yourself, because no one else is going to do ...
+2025-05-26 22:42:22,248 - INFO - Video generated successfully: assets/temp/generated_video_2890.mp4
+2025-05-26 22:42:22,248 - ERROR - Error processing video: [Errno 2] No such file or directory: 'config/youtube_credentials.json'
+2025-05-26 22:52:26,876 - INFO - Successfully read Excel data: 3 quotes, 3 music tracks
+2025-05-26 22:52:26,877 - INFO - Generating video for quote: Believe in yourself and all that you are....
+2025-05-26 22:56:52,661 - INFO - Video generated successfully: assets/temp/generated_video_6103.mp4
+2025-05-26 23:12:15,875 - INFO - Scheduled daily video creation at 23:19
+2025-05-26 23:12:15,875 - INFO - Scheduler started in background
+2025-05-26 23:12:15,879 - ERROR - Main application error: name 'time' is not defined
+2025-05-26 23:12:31,930 - ERROR - Main application error: Invalid time format for a daily job (valid format is HH:MM(:SS)?)
+2025-05-26 23:12:44,857 - INFO - Scheduled daily video creation at 23:19:00
+2025-05-26 23:12:44,857 - INFO - Scheduler started in background
+2025-05-26 23:12:44,857 - ERROR - Main application error: name 'time' is not defined
+2025-05-26 23:13:57,657 - ERROR - Main application error: Invalid time format for a daily job (valid format is HH:MM(:SS)?)
+2025-05-26 23:14:04,553 - INFO - Scheduled daily video creation at 23:19:00
+2025-05-26 23:14:04,553 - INFO - Scheduler started in background
+2025-05-26 23:19:04,782 - INFO - Successfully read Excel data: 3 quotes, 3 music tracks
+2025-05-26 23:19:04,782 - INFO - Generating video for quote: Believe in yourself and all that you are....
+2025-05-26 23:22:59,856 - INFO - Video generated successfully: assets/temp/generated_video_5592.mp4
+2025-05-27 14:20:50,476 - INFO - Successfully read Excel data: 3 quotes, 3 music tracks
+2025-05-27 14:20:50,476 - INFO - Generating video for quote: Believe in yourself and all that you are....
+2025-05-27 14:26:47,454 - INFO - Video generated successfully: assets/temp/generated_video_5838.mp4
+2025-05-27 14:26:47,454 - ERROR - Error processing video: [Errno 2] No such file or directory: 'config/youtube_credentials.json'
+2025-05-27 14:28:31,290 - INFO - Scheduled daily video creation at 14:45:00
+2025-05-27 14:28:31,290 - INFO - Scheduler started in background
+2025-05-27 14:45:32,322 - INFO - Successfully read Excel data: 3 quotes, 3 music tracks
+2025-05-27 14:45:32,322 - INFO - Generating video for quote: Believe in yourself and all that you are....
+2025-05-27 14:57:53,335 - INFO - Video generated successfully: assets/temp/generated_video_7786.mp4
+2025-05-27 14:58:04,438 - INFO - "GET /?state=LCdffwJbD0VUB4jSMpnqe4UA0f7NWp&code=4/0AUJR-x7sNko3_p9-_z039DXgzCdFY-gIS3ZAmfEfmYWT9owT77URFIPoBmKq9uCX1GMFRw&scope=https://www.googleapis.com/auth/youtube.upload HTTP/1.1" 200 65
+2025-05-27 14:58:04,871 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-27 14:58:04,884 - INFO - YouTube API authenticated successfully
+2025-05-27 14:58:09,873 - INFO - Video uploaded successfully. Video ID: Vp-DKhJ787Y
+2025-05-27 14:58:09,999 - WARNING - Encountered 403 Forbidden with reason "insufficientPermissions"
+2025-05-27 14:58:09,999 - ERROR - Error scheduling video: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/videos?part=status&alt=json returned "Request had insufficient authentication scopes.". Details: "[{'message': 'Insufficient Permission', 'domain': 'global', 'reason': 'insufficientPermissions'}]">
+2025-05-27 14:58:09,999 - ERROR - Error processing video: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/videos?part=status&alt=json returned "Request had insufficient authentication scopes.". Details: "[{'message': 'Insufficient Permission', 'domain': 'global', 'reason': 'insufficientPermissions'}]">
+2025-05-27 15:45:41,836 - INFO - Scheduled daily video creation at 15:46:00
+2025-05-27 15:45:41,841 - INFO - Scheduler started in background
+2025-05-27 15:45:41,934 - INFO - Successfully read Excel data: 3 quotes, 3 music tracks
+2025-05-27 15:45:41,934 - INFO - Generating video for quote: Believe in yourself and all that you are....
+2025-05-27 15:51:21,683 - INFO - Video generated successfully: assets/temp/generated_video_3931.mp4
+2025-05-27 15:51:21,683 - ERROR - Error uploading video: EOF occurred in violation of protocol (_ssl.c:2384)
+2025-05-27 15:51:21,683 - ERROR - Error processing video: EOF occurred in violation of protocol (_ssl.c:2384)
+2025-05-27 15:53:57,514 - INFO - Scheduled daily video creation at 15:55:00
+2025-05-27 15:53:57,514 - INFO - Scheduler started in background
+2025-05-27 15:55:57,777 - INFO - Successfully read Excel data: 3 quotes, 3 music tracks
+2025-05-27 15:55:57,777 - INFO - Generating video for quote: Believe in yourself and all that you are....
+2025-05-27 15:59:52,870 - INFO - Video generated successfully: assets/temp/generated_video_7327.mp4
+2025-05-27 15:59:53,173 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-27 15:59:53,173 - INFO - YouTube API authenticated successfully
+2025-05-27 15:59:57,401 - INFO - Video uploaded successfully. Video ID: p_vaIFZFLXE
+2025-05-27 15:59:57,536 - WARNING - Encountered 403 Forbidden with reason "insufficientPermissions"
+2025-05-27 15:59:57,536 - ERROR - Error scheduling video: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/videos?part=status&alt=json returned "Request had insufficient authentication scopes.". Details: "[{'message': 'Insufficient Permission', 'domain': 'global', 'reason': 'insufficientPermissions'}]">
+2025-05-27 15:59:57,536 - ERROR - Error processing video: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/videos?part=status&alt=json returned "Request had insufficient authentication scopes.". Details: "[{'message': 'Insufficient Permission', 'domain': 'global', 'reason': 'insufficientPermissions'}]">
+2025-05-27 16:08:04,119 - INFO - Scheduled daily video creation at 16:09:00
+2025-05-27 16:08:04,119 - INFO - Scheduler started in background
+2025-05-27 16:08:04,157 - INFO - Successfully read Excel data: 3 quotes, 3 music tracks
+2025-05-27 16:08:04,158 - INFO - Generating video for quote: Believe in yourself and all that you are....
+2025-05-27 16:13:24,535 - INFO - Video generated successfully: assets/temp/generated_video_4303.mp4
+2025-05-27 16:13:27,762 - INFO - Video uploaded successfully. Video ID: d6mPQUgQ62E
+2025-05-27 16:13:27,828 - WARNING - Encountered 403 Forbidden with reason "insufficientPermissions"
+2025-05-27 16:13:27,828 - ERROR - Error scheduling video: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/videos?part=status&alt=json returned "Request had insufficient authentication scopes.". Details: "[{'message': 'Insufficient Permission', 'domain': 'global', 'reason': 'insufficientPermissions'}]">
+2025-05-27 16:13:27,828 - ERROR - Error processing video: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/videos?part=status&alt=json returned "Request had insufficient authentication scopes.". Details: "[{'message': 'Insufficient Permission', 'domain': 'global', 'reason': 'insufficientPermissions'}]">
+2025-05-27 16:23:08,955 - INFO - Scheduled daily video creation at 16:24:00
+2025-05-27 16:23:08,955 - INFO - Scheduler started in background
+2025-05-27 16:23:08,995 - INFO - Successfully read Excel data: 3 quotes, 3 music tracks
+2025-05-27 16:23:08,995 - INFO - Generating video for quote: Believe in yourself and all that you are....
+2025-05-27 16:27:08,191 - INFO - Video generated successfully: assets/temp/generated_video_9533.mp4
+2025-05-27 16:27:11,272 - INFO - Video uploaded successfully. Video ID: 5ETexz_Nzc4
+2025-05-27 16:27:11,330 - WARNING - Encountered 403 Forbidden with reason "insufficientPermissions"
+2025-05-27 16:27:11,330 - ERROR - Error scheduling video: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/videos?part=status&alt=json returned "Request had insufficient authentication scopes.". Details: "[{'message': 'Insufficient Permission', 'domain': 'global', 'reason': 'insufficientPermissions'}]">
+2025-05-27 16:27:11,330 - ERROR - Error processing video: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/videos?part=status&alt=json returned "Request had insufficient authentication scopes.". Details: "[{'message': 'Insufficient Permission', 'domain': 'global', 'reason': 'insufficientPermissions'}]">
+2025-05-31 11:38:09,836 - INFO - Scheduled daily video creation at 11:39:00
+2025-05-31 11:38:09,846 - INFO - Scheduler started in background
+2025-05-31 11:39:10,322 - INFO - Successfully read Excel data: 3 quotes, 3 music tracks
+2025-05-31 11:39:10,322 - INFO - Generating video for quote: Believe in yourself and all that you are....
+2025-05-31 11:44:26,547 - INFO - Video generated successfully: assets/temp/generated_video_7749.mp4
+2025-05-31 11:49:24,956 - INFO - "GET /?state=hgC0W0puqSCUXEREpSUUxRKAQ5N7x7&code=4/0AUJR-x5a4P5Hct0qqn0VwnQCKPnlvcTJs2Cb0-fPU5r57_yCByLTUQA7F6_ycMe2Cjh78A&scope=https://www.googleapis.com/auth/youtube.force-ssl%20https://www.googleapis.com/auth/youtube%20https://www.googleapis.com/auth/youtube.upload HTTP/1.1" 200 65
+2025-05-31 11:49:25,323 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-31 11:49:25,367 - INFO - YouTube API authenticated successfully
+2025-05-31 11:49:29,184 - INFO - Video uploaded successfully. Video ID: wdneiU7s27Y
+2025-05-31 11:49:30,362 - INFO - Video wdneiU7s27Y scheduled for 2025-05-27T15:55:00.000000
+2025-05-31 11:49:30,368 - INFO - Successfully processed video 0

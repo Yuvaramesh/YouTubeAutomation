@@ -1,0 +1,6 @@
+__pycache__/
+venv/
+youtube_credentials.json
+# client_secret.json is named as youtube_credentials.json
+client_secret_838402917099-ifslkerqpdcmqn57glb6c53r7ho8i7uc.apps.googleusercontent.com.json
+client_secret_838402917099-ifslkerqpdcmqn57glb6c53r7ho8i7uc.apps.googleusercontent.com.json
